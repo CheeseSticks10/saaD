@@ -7,7 +7,7 @@ import os
 checked = 0
 
 while True:
-    os.system(f"title Bye Bye Bitcoin // Checked Wallets: {checked} // by clout")
+    os.system(f"title Bye Bye Bitcoin // Checked Wallets: {checked} // by Neo")
     url = "https://www.bitcoinlist.io/random"
     headers = CaseInsensitiveDict()
     headers["User-Agent"] = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36"
@@ -28,12 +28,12 @@ while True:
                 #requests.post("webhook URL", json={"content": f"{balance} BTC found\n\nAdress: {compaddy}\nPrivate Key: {privkey}"}) 
                 open('hits.txt', 'a+').write(f"{balance} BTC found in Adress: {compaddy} // Private Key: {privkey}")
             os.system("cls")
-            os.system(f"title Bye Bye Bitcoin // Checked Wallets: {checked} // by clout")
+            os.system(f"title Bye Bye Bitcoin // Checked Wallets: {checked} // by Neo")
             print(f"""
             .-.____________________.-.
      ___ _.' .-----.    _____________|======+--------------------+
     /_._/   (      |   /_____________|      |   Bye Bye Bitcoin  |
-      /      `  _ ____/                     |      by clout      |
+      /      `  _ ____/                     |      by Neo_      |
      |_      .\( \\                          |____________________|
     .'  `-._/__`_//
   .'       |'           Private Key: {privkey}
